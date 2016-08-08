@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\sndExplocionEnemigo</sound>
     <sound>sound\sndExpocionmiAvion</sound>
+    <sound>sound\sndExploDamage</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprIsla1</sprite>
@@ -19,6 +20,11 @@
     <sprite>sprites\sprExplocionmiAvion</sprite>
     <sprite>sprites\sprVida</sprite>
     <sprite>sprites\sprBottom</sprite>
+    <sprite>sprites\sprEnemigo2</sprite>
+    <sprite>sprites\sprEnemigo3</sprite>
+    <sprite>sprites\sprEnemigo4</sprite>
+    <sprite>sprites\sprBalaEnemigo1</sprite>
+    <sprite>sprites\sprBalaEnemigo2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_Agua</background>
@@ -31,10 +37,15 @@
     <object>objects\objMiAvion</object>
     <object>objects\objBala</object>
     <object>objects\objEnemigo1</object>
+    <object>objects\objEnemigo4</object>
+    <object>objects\objEnemigo2</object>
+    <object>objects\objEnemigo3</object>
     <object>objects\objExplocionEnemigo</object>
     <object>objects\objExplocionmiAvion</object>
     <object>objects\objControlEnemigos</object>
     <object>objects\objControllerLife</object>
+    <object>objects\objBalaEnemigo1</object>
+    <object>objects\objBalaEnemigo2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Nivel1</room>
